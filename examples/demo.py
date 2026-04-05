@@ -38,7 +38,7 @@ def main():
     # Return configuration profile for an environment.
     print("📝 Example: get_env_profile()")
     result = get_env_profile(
-        env={"DATABASE_URL": "postgres://localhost/mydb", "API_KEY": "xxx", "DEBUG": "true"}
+        env="production"
     )
     print(f"   Result: {result}")
     print()
